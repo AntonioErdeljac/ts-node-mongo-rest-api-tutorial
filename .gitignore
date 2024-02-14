@@ -1,0 +1,33 @@
+
+dist
+*.js
+*.js.map
+# Ignore node_modules directory
+node_modules/
+node_modules
+
+
+
+# Ignore compiled JavaScript files
+*.js
+
+# Ignore TypeScript declaration files
+*.d.ts
+
+# Ignore TypeScript build output directory
+dist/
+
+# Ignore environment-specific files
+.env
+.env.*
+
+# Ignore editor-specific files
+.vscode/
+.idea/
+
+# Ignore logs
+logs/
+*.log
+node_modules/
+dist/
+*.js

@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "module": "NodeNext",
-    "moduleResolution": "node",
+    "moduleResolution": "NodeNext",
     "baseUrl": "src",
     "outDir": "dist",
     "sourceMap": true,

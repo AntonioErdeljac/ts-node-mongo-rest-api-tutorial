@@ -23,8 +23,11 @@ const server = http.createServer(app);
 server.listen(8080, () => {
   console.log('Server running on http://localhost:8080/');
 });
+// load environment variables
 
-const MONGO_URL = ''; // DB URI
+
+
+const MONGO_URL = "mongodb://localhost:27017/sage"; // DB URI
 
 mongoose.Promise = Promise;
 mongoose.connect(MONGO_URL);
